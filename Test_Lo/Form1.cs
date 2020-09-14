@@ -77,7 +77,7 @@ namespace Test_Lo
 
                 if (serieRSI.RSI[i] != null)
                 {
-                    //chart1.Series["RSI"].Points.AddXY(i, serieRSI.RSI[i]);
+                    chart1.Series["RSI"].Points.AddXY(i, serieRSI.RSI[i]);
                 }
             }
         }
